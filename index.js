@@ -5,12 +5,18 @@ const validateIndices = (start, stop, total) => {
   return start >= 0 && start <= total && start <= stop;
 };
 
-const process = (items, currPg, perPage) => {
+/**
+ *
+ * @param {array} items - the array source of the pagination
+ * @param {number} currentPage - the page that should be loaded from the array
+ * @param {number} perPage - the number of items on the page
+ */
+const process = (items, currentPage, perPage) => {
   const totalResults = Array.isArray(items) ? items.length : 0;
   const totalPages = Math.ceil(totalResults / perPage);
-  const currentPage = sanitizePage(currPg, totalPages);
+  const currentPg = sanitizePage(currentPage, totalPages);
 
-  const startIndex = (currentPage - 1) * perPage;
+  const startIndex = (currentPg - 1) * perPage;
   const endIndex = startIndex + perPage;
 
   const results = validateIndices(startIndex, endIndex, totalResults)
@@ -21,16 +27,16 @@ const process = (items, currPg, perPage) => {
     totalResults,
     items: results,
     pages: totalPages,
-    currentPage,
-    prevPage: sanitizePage(currentPage - 1, totalPages),
-    nextPage: sanitizePage(currentPage + 1, totalPages),
+    currentPage: currentPg,
+    prevPage: sanitizePage(currentPg - 1, totalPages),
+    nextPage: sanitizePage(currentPg + 1, totalPages),
     perPage,
     totalCurrentResults: results.length
   };
 };
 
 const pagination = {
-  paginate: (arr, page, perPage) => process(arr, page, perPage)
+  paginate: process
 };
 
 module.exports = pagination;
