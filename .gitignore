@@ -62,3 +62,5 @@ typings/
 
 # vscode 
 .vscode
+
+package-lock.json
