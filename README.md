@@ -1,3 +1,8 @@
+[![GitHub issues](https://img.shields.io/github/issues/AndreiLucaci/simple-pagination)](https://github.com/AndreiLucaci/simple-pagination/issues)
+[![GitHub forks](https://img.shields.io/github/forks/AndreiLucaci/simple-pagination)](https://github.com/AndreiLucaci/simple-pagination/network)
+[![GitHub stars](https://img.shields.io/github/stars/AndreiLucaci/simple-pagination)](https://github.com/AndreiLucaci/simple-pagination/stargazers)
+[![GitHub license](https://img.shields.io/github/license/AndreiLucaci/simple-pagination)](https://github.com/AndreiLucaci/simple-pagination/blob/master/LICENSE)
+
 # simple-pagination
 
 Simple pagination module for arrays.
