@@ -1,5 +1,5 @@
 {
-  "name": "arr-pag",
+  "name": "arrpag",
   "version": "1.0.0",
   "description": "Paginate the array",
   "main": "index.js",
