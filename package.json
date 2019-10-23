@@ -1,0 +1,38 @@
+{
+  "name": "arr-pag",
+  "version": "1.0.0",
+  "description": "Paginate the array",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "mocha tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndreiLucaci/simple-pagination.git"
+  },
+  "keywords": [
+    "paginate",
+    "arrays",
+    "simple",
+    "logic",
+    "of",
+    "pagination"
+  ],
+  "author": "Andrei Lucaci",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/AndreiLucaci/simple-pagination/issues"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "package.json",
+    "test"
+  ],
+  "homepage": "https://github.com/AndreiLucaci/simple-pagination#readme",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}
