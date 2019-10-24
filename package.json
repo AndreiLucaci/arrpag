@@ -2,10 +2,12 @@
   "name": "arrpag",
   "version": "1.0.0",
   "description": "Paginate the array",
-  "main": "index.js",
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "lint": "eslint index.js",
-    "test": "mocha tests/**/*.js"
+    "test": "mocha tests/**/*.js --reporter spec",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -33,6 +35,7 @@
   ],
   "homepage": "https://github.com/AndreiLucaci/simple-pagination#readme",
   "devDependencies": {
-    "mocha": "^6.2.2"
+    "mocha": "^6.2.2",
+    "typescript": "^3.6.4"
   }
 }
