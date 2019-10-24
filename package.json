@@ -7,7 +7,8 @@
   "scripts": {
     "lint": "eslint index.js",
     "test": "mocha tests/**/*.js --reporter spec",
-    "build": "tsc"
+    "build": "tsc",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha tests/**/*.js - - -R spec"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,8 @@
   },
   "homepage": "https://github.com/AndreiLucaci/simple-pagination#readme",
   "devDependencies": {
+    "coveralls": "^3.0.7",
+    "istanbul": "^0.4.5",
     "mocha": "^6.2.2",
     "typescript": "^3.6.4"
   }
