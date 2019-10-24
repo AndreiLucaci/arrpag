@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/AndreiLucaci/arrpag.svg?branch=master)](https://travis-ci.org/AndreiLucaci/arrpag)
+
 [![GitHub issues](https://img.shields.io/github/issues/AndreiLucaci/simple-pagination)](https://github.com/AndreiLucaci/arrpag/issues)
 [![GitHub forks](https://img.shields.io/github/forks/AndreiLucaci/simple-pagination)](https://github.com/AndreiLucaci/arrpag/network)
 [![GitHub stars](https://img.shields.io/github/stars/AndreiLucaci/simple-pagination)](https://github.com/AndreiLucaci/arrpag/stargazers)
