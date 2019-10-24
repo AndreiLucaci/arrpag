@@ -1,8 +1,8 @@
 {
   "name": "arrpag",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Paginate the array",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "lint": "eslint index.js",
@@ -26,13 +26,6 @@
   "bugs": {
     "url": "https://github.com/AndreiLucaci/simple-pagination/issues"
   },
-  "files": [
-    "LICENSE",
-    "README.md",
-    "index.js",
-    "package.json",
-    "test"
-  ],
   "homepage": "https://github.com/AndreiLucaci/simple-pagination#readme",
   "devDependencies": {
     "mocha": "^6.2.2",
