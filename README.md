@@ -85,7 +85,7 @@ For the previous example the output should be:
 ```sh
 {
   totalResults: 5,
-  items: [ 4, 5 ],
+  results: [ 4, 5 ],
   pages: 2,
   currentPage: 2,
   prevPage: 1,
